@@ -60,7 +60,7 @@ SELECT * FROM Kamran_Ashraf_DB.Appointment;
 
 
 CREATE USER IF NOT EXISTS 'patient_test'@'localhost'
-IDENTIFIED BY 'TestPatient2026!';
+IDENTIFIED BY 'ReplaceWithYourOwnStrongPassword!';
 
 GRANT 'hospital_patient' TO 'patient_test'@'localhost';
 
